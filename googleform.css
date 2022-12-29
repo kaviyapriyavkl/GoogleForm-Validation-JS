@@ -1,0 +1,165 @@
+*
+{ padding:0;margin: 0; box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+header
+{
+  
+  width:100vw;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container
+{
+    max-width: 800px;
+    min-height: 500px;
+    background-color:white;
+    border:1px solid black;
+    border-radius:5px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    justify-items: flex-start;
+    padding: 2rem ;
+}
+.left
+{
+    flex-basis: 50%;
+}
+.right
+{
+    flex-basis: 40%;
+}
+.right img
+{
+    width:80%;
+}
+.right p
+{
+  text-align:center;
+  margin:auto;
+  max-width:16rem; 
+}
+h3
+{
+color:#2d3436;
+margin:1rem 0;
+}
+
+form input[type="text"]
+{
+  width:49%;
+  padding: 0.5rem 0.7rem;
+  outline:none;
+  border: 1px solid #b2bec3;
+  margin-bottom:1.5rem;
+  border-radius: 5px;
+}
+
+form input[type="email"]
+{
+  width:100% ;
+  padding: 0.5rem 0.7rem;
+  outline:none;
+  border: 1px solid #b2bec3;
+  margin-bottom:1.5rem;
+  border-radius:5px;
+}
+
+form span
+{
+ color:grey;
+ width:100%;
+ font-size:0.8rem;
+}
+
+form a
+{
+ text-decoration:none;
+ font-weight:600;
+ font-size:0.8rem;
+ color:#3498db;
+}
+
+form input[type="password"]
+{
+  width:49%;
+  padding: 0.5rem 0.7rem;
+  outline:none;
+  border: 1px solid #b2bec3;
+  margin-bottom:1.2rem 0;
+  border-radius:5px;
+}
+
+.b-links
+{
+  width:100%;
+  display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:2.5rem;
+}
+
+form input[type="submit"]
+{
+  background:#3498db;
+  color:white;
+  padding:0.5rem 1.3rem;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+ form input
+ {
+transition:0.4s;
+ }
+form input:focus{
+  border:2px solid #3498db;
+}
+#uname
+{
+  position:relative;
+}
+ #uname label
+ {
+  position:absolute;
+  right:0;
+  font-size:0.8rem;
+  padding:0.5rem 0.7rem;
+ }
+
+ @mediaonly screen and( max-width:770px)
+ {
+   body{
+    overflow-x:hidden;
+  }
+  header{
+    align-items:flex-start;
+    padding:0.2rem;
+  }
+  .right{
+    display:none;
+  }
+  .container{
+    flex-direction:column;
+    border:none;
+  }
+  form input[type="text"]
+{
+  width:100%;
+  margin:0.8rem 0;
+}
+form input[type="password "]
+{
+  width:100%;
+  margin:0.8rem 0;
+}
+.b-links{
+  margin-top: 1 rem;
+  border: 1px solid #b2bec3;
+  
+}
+ }
+

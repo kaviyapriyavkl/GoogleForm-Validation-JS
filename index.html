@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="googleform.js ">  </script>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" type="text/css" href="googleform.css"> <!--link css with html-->
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+   <title>create your google account</title>
+ 
+</head>
+
+<body>
+   <header>
+      <div class="container">
+         <div class="left">
+            <div class="g-form">
+               <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="70">
+               <h3>Create your Google Account</h3>
+               <form name="gform" action="/success.html" method="get" onsubmit="return validateform()">
+                  <input type="text" name="fname" placeholder="First Name">
+                  <input type="text" name="lname" placeholder="last Name">
+                  <div id="uname">
+                     <input type="email" name="usnm" placeholder="username">
+                     <label>
+                        
+                     </label>
+                  </div>
+                  <span>
+                     You can use letters,numbers & periods
+                  </span>
+                  <br>
+                  <a href="#">Use my current email address instead</a>
+                  <input type="password" name="pass" placeholder="password">
+                  <input type="password" name="cnfrm" placeholder="confirm">
+                  <span>
+                     Use 8 or more characters with a mix of letters,numbers & symbols
+                  </span>
+                  <br>
+                  <input type="checkbox" name="" class="checkbox">
+                  &nbsp;Show password
+                  <div class="b-links">
+                     <a heref="#">Sign in instead</a>
+                     <input id="next" type="submit"  value="next">
+                  </div>
+               </form>
+            </div>
+         </div>
+         <div class="right">
+            <img
+               src="https://www.kindpng.com/picc/m/182-1822355_google-account-products-icons-google-account-icon-hd.png" >
+            <p>One account. All of Google working for you</p>
+         </div>
+      </div>
+   </header>
+</body>
+
+</html>
